@@ -1,11 +1,15 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class App {
+
     public static void main(String[] args) throws Exception {
-        int a;
-        System.out.println("Enter Number");
-        Scanner s = new Scanner(System.in);
-        a = s.nextInt();
-        System.out.println("Number is" +" "+ a);
+        for (int i = 0; i < 5; i++) {
+            System.out.print("0");
+            for (int j = 0; j < i ; j++) {
+                System.out.print("0");
+            }
+            System.out.println();
+        }
+
     }
 }
